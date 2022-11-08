@@ -3,7 +3,13 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/books" do
-    { message: "Good luck with your project!" }.to_json
+    books = Book.all.order(:id)
+    books.to_json
+  end
+
+  get '/books/:id' do
+    book = Book.find(params[:id])
+    book.to_json
   end
 
 end
