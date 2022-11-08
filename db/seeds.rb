@@ -20,4 +20,6 @@ Book.create(title: "MY SISTER'S GRAVE", genre:"Crime", price: 10, description:"T
 Book.create(title: "THE 6:20 MAN", genre:"Crime", price: 27, description:"Every day without fail, Travis Devine puts on a cheap suit, grabs his faux-leather briefcase, and boards the 6:20 commuter train to Manhattan, where he works as an entry-level analyst at the citys most prestigious investment firm. In the mornings, he gazes out the train window at the lavish homes of the uberwealthy, dreaming about joining their ranks. In the evenings, he listens to the fiscal news on his phone, already preparing for the next grueling day in the cutthroat realm of finance. Then one morning Devines tedious routine is shattered by an anonymous email: She is dead.", year_published:2011)
 Book.create(title: "IF HE HAD BEEN WITH ME", genre:"Romance", price: 14, description:"if he had been with me, everything would have been different..Autumn and Finn used to be inseparable. But then something changed. Or they changed. Now, they do their best to ignore each other.Autumn has her boyfriend Jamie, and her close-knit group of friends. And Finn has become that boy at school, the one everyone wants to be around.", year_published:2019)
 
+
+
 puts "✅ Done seeding!"
