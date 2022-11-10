@@ -51,6 +51,7 @@ group :test do
   gem "rspec-json_expectations", "~> 2.2"
 end
 
-# gem "faker", "~> 2.22.0"
+gem "faker"
+# , "~> 2.22.0"
 
 gem "puma"
