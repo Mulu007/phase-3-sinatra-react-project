@@ -23,6 +23,7 @@ class ApplicationController < Sinatra::Base
       title: params[:title],
       genre: params[:genre],
       price: params[:price],
+      image_url: params[:image_url],
       description: params[:description],
       year_published: params[:year_published],
       user_id: params[:user_id]
